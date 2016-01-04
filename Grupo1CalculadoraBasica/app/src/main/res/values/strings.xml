@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Grupo1CalculadoraBasica</string>
+    <string name="operador1">Operador 1</string>
+    <string name="operador2">Operador 2</string>
+    <string name="mas">+</string>
+    <string name="menos">-</string>
+    <string name="multiplicacion">*</string>
+    <string name="division">/</string>
+    <string name="igual">=</string>
+    <string name="espacios">____</string>
+    <string name="operacion">operacion</string>
+</resources>
