@@ -3,7 +3,7 @@ package com.example.lenovo.grupo1calculadorabasica;
 //                 Julián González
 //                 César M Naranjo
 
-//Inicio Código César M Alarcón
+//Inicio Código César M Naranjo
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -330,7 +330,7 @@ public void multiplicacion(View v) {
                 multiplicacion(v);
                 break;
             case 4:
-                //division(v);//quitar comentario cuando se cree el metodo division
+                division(v);
             default:
                 break;
 

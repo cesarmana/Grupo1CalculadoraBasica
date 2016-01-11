@@ -17,20 +17,35 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true">
+        android:layout_alignParentEnd="true"
+        android:background="#c2d0d8">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/operador1"
-            android:id="@+id/textView" />
+            android:text="Emulador Android utilizado fue: Nexus 5 API 23x86."
+            android:id="@+id/textView2"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toca el campo de texto para que se active el teclado numerico:"
+            android:id="@+id/textView"
+            android:textStyle="bold" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"
             android:ems="10"
-            android:id="@+id/editText" />
+            android:id="@+id/editText"
+            android:background="#ffffff" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -107,7 +122,8 @@
                 android:phoneNumber="false"
                 android:layout_centerVertical="true"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:textStyle="bold" />
         </RelativeLayout>
 
         <LinearLayout
@@ -120,7 +136,8 @@
             android:layout_height="wrap_content"
             android:text="RESULTADO"
             android:id="@+id/textView3"
-            android:password="false" />
+            android:password="false"
+            android:textStyle="bold" />
 
         <EditText
             android:layout_width="match_parent"
@@ -128,7 +145,7 @@
             android:id="@+id/resultado_editText3"
             android:text="0"
             android:focusable="false"
-            />
+            android:textStyle="bold" />
 
 
     </LinearLayout>
